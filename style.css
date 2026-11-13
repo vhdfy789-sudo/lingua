@@ -1,1 +1,22 @@
-
+* { margin:0; padding:0; box-sizing:border-box; font-family: Arial, sans-serif; }
+body { background:#F0FDF9; color:#0F172A; }
+header { display:flex; justify-content:space-between; align-items:center; padding:18px 40px; background:white; }
+.logo { font-size:22px; font-weight:800; color:#0D9488; }
+nav a { margin:0 14px; text-decoration:none; color:#334155; font-weight:600; }
+.btn-download { background:#0D9488; color:white; border:none; padding:10px 20px; border-radius:10px; font-weight:bold; cursor:pointer; }
+.hero { display:flex; justify-content:space-between; align-items:center; padding:50px 60px; gap:40px; }
+.hero-left { flex:1; }
+.badge { background:#CCFBF1; color:#0D9488; padding:6px 14px; border-radius:20px; font-size:13px; font-weight:700; }
+.hero h1 { font-size:52px; line-height:1.05; margin:18px 0 14px; }
+.hero p { color:#475569; font-size:17px; max-width:420px; }
+.hero-btns { margin-top:22px; display:flex; gap:12px; }
+.btn-main { background:#0D9488; color:white; border:none; padding:13px 22px; border-radius:12px; font-weight:800; cursor:pointer; }
+.btn-ghost { background:white; border:1px solid #CBD5E1; padding:13px 22px; border-radius:12px; font-weight:700; cursor:pointer; }
+.hero-right { flex:1; display:flex; justify-content:center; }
+.phone { background:white; width:260px; padding:26px 22px; border-radius:30px; border:3px solid #0F172A; box-shadow:0 15px 30px rgba(0,0,0,0.12); text-align:center; }
+.phone-label { font-size:12px; letter-spacing:1px; color:#64748B; font-weight:700; }
+.phone h2 { font-size:32px; color:#0D9488; margin:18px 0 6px; }
+.trans { color:#64748B; margin-bottom:20px; }
+.progress-bar { background:#F1F5F9; height:10px; border-radius:10px; overflow:hidden; }
+.progress-fill { width:70%; height:100%; background:#14B8A6; }
+.progress-text { font
